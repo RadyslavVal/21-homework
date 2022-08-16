@@ -1,0 +1,27 @@
+.App-container {
+  width: 480px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #4d5461;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Contacts-genders {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+  font-size: 16px;
+}
+.Contacts-search {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 20px 0 10px 0;
+  line-height: 40px;
+  font-size: 30px;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+}
